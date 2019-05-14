@@ -1,0 +1,119 @@
+
+h5 {
+    color: black;
+}
+
+/*A:visited {
+    color: #065;
+}*/
+body a {
+    text-decoration: none;
+}
+
+.admin-h4{
+    margin-left:220px;
+}
+
+
+#admin_footer{
+    padding-top: 50px;
+}
+.row{
+    margin: 10px;
+}
+.row input {
+    width: 250px;
+    background:#f2f2f2;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    color: #000066;
+}
+
+.row textarea, select{
+    width: 271px;
+    color: #000066;
+}
+.row textarea{
+    width: 266px;
+}
+#submit{
+    margin-top: 10px;
+    color: #f2f2f2;
+    background-color: #069;
+    width: 271px;
+    cursor: pointer;
+}
+#delete {
+    background:#f2f2f2;
+    width: 125px;
+    cursor: pointer;
+    color: red;
+}
+
+.delete{
+    color: red;
+    font-size: 14px;
+}
+.add{
+    width: 150px;
+    background:#069;
+    padding: 5px 10px;
+    border: 1px solid #555;
+    color: white;
+    cursor: pointer;
+}
+
+.add A:visited {
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+th, td {
+    padding: 3px 10px;
+    border: 1px solid grey;
+}
+
+.login-form p {
+    margin-bottom: 0.2em;
+    margin-top: 1em;
+}
+
+.btn-admin {
+    margin-top: 30px;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #B3B3B3;
+}
+
+.navbar-collapse {
+    background-color: #222222
+}
+
+
+@media (max-width: 768px) {
+    
+    .col-md-9 {
+        margin: 0 10px;;
+    }
+    .col-md-6 {
+        margin: 0 10px;
+    }
+    .col-md-4 {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 980px) {
+    .row {
+        font-size: 15pt;
+    }
+    .nav {
+        font-size: 15pt;
+    }
+}

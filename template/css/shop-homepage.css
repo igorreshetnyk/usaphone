@@ -1,0 +1,125 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 140px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding: 5px 10px 5px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+.li-right{
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .li-right {
+        float: left;
+        margin-left: -15px;
+    }
+}
+@media (max-width: 992px) {
+    .li-right {
+        float: left;
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-9 {
+        margin: 0 10px;;
+    }
+    .col-md-6 {
+        margin: 0 10px;
+    }
+    .col-md-4 {
+        margin: 0 10px;
+    }
+}
+
+
+
+#pag{
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+
+}
+
+
+.button-form{
+    float: right;
+    margin-top: 15px;
+}
+
+.add_to_cart{
+    float: right;
+    font-size: 1.2em;
+}
+
+.error{
+    padding-top: -70px;
+    width: 100%;
+}
+.error-message{
+    font-size: 18px;
+    color: red;
+}
+
+.capcha{
+    display: inline;
+    width: 68.7%;
+}
+
+.img-capcha{
+    display: inline;
+    width: 30%;
+}
+
